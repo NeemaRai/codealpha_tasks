@@ -1,0 +1,204 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hello",
+              "Hi",
+              "Hey",
+              "Good morning",
+              "Good evening",
+              "Is anyone there?",
+              "Howdy"
+          ],
+          "responses": [
+              "Hello! How can I assist you today?",
+              "Hi there! What can I help you with?",
+              "Hey! How can I make your day better?"
+          ]
+      },
+      {
+          "tag": "product_info",
+          "patterns": [
+              "What is this product?",
+              "Tell me about this product",
+              "What does this product do?",
+              "Can you explain the features?",
+              "How does this product work?",
+              "Is this product suitable for me?"
+          ],
+          "responses": [
+              "Our product is designed to help with XYZ. It includes features such as A, B, and C.",
+              "This product is great for solving [specific problem]. It comes with features like [feature1], [feature2], and more!",
+              "Sure! This product helps with [use case]. Would you like details on a specific feature?"
+          ]
+      },
+      {
+          "tag": "features",
+          "patterns": [
+              "What features does this product have?",
+              "Tell me the main features",
+              "Does it come with [feature name]?",
+              "How is it different from other products?",
+              "What makes this product special?"
+          ],
+          "responses": [
+              "Our product comes with features such as A, B, and C. These help with [problem it solves].",
+              "Key features include high efficiency, easy usability, and top-notch security.",
+              "Unlike other products, ours includes an exclusive feature that [explain uniqueness]."
+          ]
+      },
+      {
+          "tag": "pricing",
+          "patterns": [
+              "How much does it cost?",
+              "What is the price?",
+              "Do you have different pricing plans?",
+              "Is there a discount available?",
+              "What are the subscription options?"
+          ],
+          "responses": [
+              "Our product is available at $X for the basic plan and $Y for the premium version.",
+              "We offer different pricing plans based on your needs. You can choose between Basic, Standard, and Premium.",
+              "Yes, we frequently have discounts! Check our website for ongoing offers."
+          ]
+      },
+      {
+          "tag": "payment_methods",
+          "patterns": [
+              "What payment methods do you accept?",
+              "Can I pay with PayPal?",
+              "Do you support credit card payments?",
+              "Do you have cash on delivery?"
+          ],
+          "responses": [
+              "We accept payments via credit/debit cards, PayPal, and bank transfers.",
+              "Yes! PayPal, Visa, MasterCard, and American Express are all accepted.",
+              "Currently, we do not offer cash on delivery."
+          ]
+      },
+      {
+          "tag": "shipping",
+          "patterns": [
+              "Do you offer free shipping?",
+              "How long does shipping take?",
+              "What are the shipping options?",
+              "Where do you ship to?",
+              "Is international shipping available?"
+          ],
+          "responses": [
+              "Yes, we offer free shipping for orders over $50.",
+              "Standard shipping takes 5-7 days, while express shipping takes 2-3 days.",
+              "We currently ship to the US, Canada, and Europe. International shipping is available at an additional cost."
+          ]
+      },
+      {
+          "tag": "warranty",
+          "patterns": [
+              "Does this product have a warranty?",
+              "What is the warranty policy?",
+              "Is there a guarantee?"
+          ],
+          "responses": [
+              "Yes! We offer a 1-year warranty covering manufacturing defects.",
+              "Our warranty includes free repairs for 12 months. You can also extend it for an additional year."
+          ]
+      },
+      {
+          "tag": "return_policy",
+          "patterns": [
+              "Can I return the product?",
+              "What is your return policy?",
+              "How do I get a refund?",
+              "Is there a money-back guarantee?"
+          ],
+          "responses": [
+              "You can return the product within 30 days of purchase for a full refund.",
+              "We offer a hassle-free return policy within 30 days.",
+              "If you're not satisfied, contact our support team to initiate a refund."
+          ]
+      },
+      {
+          "tag": "support",
+          "patterns": [
+              "How can I contact customer support?",
+              "I need help with an issue",
+              "Where can I get assistance?",
+              "Is there a live chat support?"
+          ],
+          "responses": [
+              "You can contact our support team at support@example.com or call us at 123-456-7890.",
+              "We offer 24/7 live chat support on our website.",
+              "For technical issues, email us at techsupport@example.com."
+          ]
+      },
+      {
+          "tag": "installation",
+          "patterns": [
+              "How do I install the product?",
+              "Is there an installation guide?",
+              "Can you help me set it up?"
+          ],
+          "responses": [
+              "Installation is easy! Follow the steps in our user manual or visit our website for a video tutorial.",
+              "We provide a step-by-step installation guide along with the product.",
+              "Need help? Our customer support can guide you through the installation."
+          ]
+      },
+      {
+          "tag": "updates",
+          "patterns": [
+              "How often do you release updates?",
+              "Do I need to update the product?",
+              "Are software updates free?"
+          ],
+          "responses": [
+              "We release updates every few months to improve performance and security.",
+              "Yes! Updates are free and ensure you get the best experience.",
+              "You will receive notifications when an update is available."
+          ]
+      },
+      {
+          "tag": "troubleshooting",
+          "patterns": [
+              "The product is not working",
+              "I'm facing an issue",
+              "How do I fix this problem?",
+              "What should I do if it stops working?"
+          ],
+          "responses": [
+              "Please restart the product and check the troubleshooting guide.",
+              "Try updating to the latest version. If the issue persists, contact support.",
+              "Ensure all cables are properly connected. If the problem continues, reach out to us."
+          ]
+      },
+      {
+          "tag": "security",
+          "patterns": [
+              "Is my data safe?",
+              "How do you handle security?",
+              "What measures do you take for security?"
+          ],
+          "responses": [
+              "We use encryption and multi-layer security protocols to protect your data.",
+              "Your data privacy is our priority. We do not share information with third parties.",
+              "All transactions and personal data are secured with the latest technology."
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": [
+              "Bye",
+              "Goodbye",
+              "See you later",
+              "Thanks for the help",
+              "Take care"
+          ],
+          "responses": [
+              "Goodbye! Have a wonderful day!",
+              "See you next time! Let me know if you need anything else.",
+              "You're welcome! Take care!"
+          ]
+      }
+  ]
+}
